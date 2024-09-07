@@ -1,0 +1,30 @@
+.cardsContainer {
+  margin: 2rem;
+}
+.cardsContainer .ant-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardsContainer .ant-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.spinContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.more-button {
+  border: none;
+  background: transparent;
+}
+.single-line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

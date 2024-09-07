@@ -1,0 +1,28 @@
+.side-nav {
+  padding-top: 5rem;
+  position: fixed !important;
+  z-index: 100;
+  height: 100vh !important;
+}
+.side-nav.collapsed {
+  transform: translateX(-100%);
+}
+
+.hamburger-button {
+  position: fixed !important;
+  top: 0.9rem;
+  left: 3rem;
+  z-index: 1000;
+}
+.hamburger-button-visible {
+  display: none;
+}
+@media (max-width: 767px) {
+  .side-nav {
+    display: block;
+  }
+
+  .hamburger-button {
+    display: block;
+  }
+}
