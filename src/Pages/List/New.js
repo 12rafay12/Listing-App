@@ -49,7 +49,7 @@ const New = () => {
         await addCard(values).unwrap();
         message.success("Card added successfully");
       }
-      navigate("/"); // Redirect after submission
+      navigate("/Listing-App");
     } catch (error) {
       message.error("An error occurred. Please try again.");
       console.error("Error:", error);
