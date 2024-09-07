@@ -67,7 +67,7 @@ const List = () => {
           <Row gutter={[32, 32]}>
             {data &&
               data.map((value) => (
-                <Col key={value.id} xs={24} sm={24} md={12} lg={8}>
+                <Col key={value.id} xs={24} sm={24} md={12} lg={8} xl={6}>
                   <Card
                     title={value.name}
                     bordered={false}
